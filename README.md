@@ -53,7 +53,7 @@ def has_square_shape(item):
 ```
 We can run the following pipeline to compute the doubled sizes for items where color=blue, and
 shape=square. Note that deferred functions are prefixed with lz (as in lazy) which ensures that
-a pipeline with M deferred pipes processing N items won't result in M iterations of M but only one iteration. 
+a pipeline with M deferred pipes processing N items won't result in M iterations of N but only one iteration of N. 
 
 ```python
 from pipes import Pipes
