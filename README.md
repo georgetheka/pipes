@@ -115,7 +115,7 @@ The following operations are supported. See docstrings in [pipes/pipes.py](./pip
 - `apply`: terminal operator that executes entire pipeline
 - `stream`: like apply but creates an generator instead
 - `group_by`: partitions a collection based on a key function and group function
-- `reduce`: performs a classic reduce operator
+- `reduce`: performs a classic reduce operation
 
 The `Pair` class:
 
